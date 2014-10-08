@@ -1,0 +1,4 @@
+[$HOME/.config/vcsh/repo.d/vundle.git]
+checkout = mkdir -p ~/.vim/bundle; 
+VCSH_BASE=~/.vim/bundle 
+vcsh clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
